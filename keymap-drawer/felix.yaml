@@ -41,13 +41,13 @@ layers:
   - LALT
   - LGUI
   - {t: Alt+Ctl+S, h: SYS}
-  - {t: LANG2, h: NUMBER}
+  - LANG2
   - SPACE
-  - '['
-  - ']'
+  - {t: ENTER, h: NUMBER}
+  - {t: ENTER, h: SYMBOL}
   - SPACE
-  - {t: LANG1, h: SYMBOL}
-  - ENTER
+  - LANG1
+  - RALT
   - LEFT
   - DOWN
   - RIGHT
@@ -95,9 +95,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -143,9 +143,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
