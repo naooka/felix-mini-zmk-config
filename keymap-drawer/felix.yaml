@@ -48,8 +48,8 @@ layers:
   - SPACE
   - LANG1
   - LEFT
-  - UP
   - DOWN
+  - UP
   - RIGHT
   SYMBOL:
   - {t: ▽, type: trans}
