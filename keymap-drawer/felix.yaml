@@ -204,3 +204,172 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&bootloader'
+combos:
+- p: [1, 37]
+  k: '&macro_XA'
+  l: [SYMBOL]
+- p: [2, 37]
+  k: '&macro_E'
+  l: [SYMBOL]
+- p: [3, 37]
+  k: '&macro_RI'
+  l: [SYMBOL]
+- p: [4, 37]
+  k: '&macro_XYA'
+  l: [SYMBOL]
+- p: [5, 37]
+  k: '&macro_RE'
+  l: [SYMBOL]
+- p: [6, 37]
+  k: '&macro_PA'
+  l: [SYMBOL]
+- p: [7, 37]
+  k: '&macro_DI'
+  l: [SYMBOL]
+- p: [8, 37]
+  k: '&macro_GU'
+  l: [SYMBOL]
+- p: [9, 37]
+  k: '&macro_DU'
+  l: [SYMBOL]
+- p: [10, 37]
+  k: '&macro_PI'
+  l: [SYMBOL]
+- p: [13, 37]
+  k: '&macro_WO'
+  l: [SYMBOL]
+- p: [14, 37]
+  k: '&macro_A'
+  l: [SYMBOL]
+- p: [15, 37]
+  k: '&macro_NA'
+  l: [SYMBOL]
+- p: [16, 37]
+  k: '&macro_XYU'
+  l: [SYMBOL]
+- p: [17, 37]
+  k: '&macro_MO'
+  l: [SYMBOL]
+- p: [18, 37]
+  k: '&macro_BA'
+  l: [SYMBOL]
+- p: [19, 37]
+  k: '&macro_DO'
+  l: [SYMBOL]
+- p: [20, 37]
+  k: '&macro_GI'
+  l: [SYMBOL]
+- p: [21, 37]
+  k: '&macro_PO'
+  l: [SYMBOL]
+- p: [25, 37]
+  k: '&macro_XU'
+  l: [SYMBOL]
+- p: [26, 37]
+  k: '&macro_JPMINUS2'
+  l: [SYMBOL]
+- p: [27, 37]
+  k: '&macro_RO'
+  l: [SYMBOL]
+- p: [28, 37]
+  k: '&macro_YA'
+  l: [SYMBOL]
+- p: [29, 37]
+  k: '&macro_XI'
+  l: [SYMBOL]
+- p: [30, 37]
+  k: '&macro_PU'
+  l: [SYMBOL]
+- p: [31, 37]
+  k: '&macro_ZO'
+  l: [SYMBOL]
+- p: [32, 37]
+  k: '&macro_PE'
+  l: [SYMBOL]
+- p: [33, 37]
+  k: '&macro_BO'
+  l: [SYMBOL]
+- p: [2, 40]
+  k: '&macro_GA'
+  l: [SYMBOL]
+- p: [3, 40]
+  k: '&macro_DA'
+  l: [SYMBOL]
+- p: [4, 40]
+  k: '&macro_GO'
+  l: [SYMBOL]
+- p: [5, 40]
+  k: '&macro_ZA'
+  l: [SYMBOL]
+- p: [6, 40]
+  k: '&macro_YO'
+  l: [SYMBOL]
+- p: [7, 40]
+  k: '&macro_NI'
+  l: [SYMBOL]
+- p: [8, 40]
+  k: '&macro_RU'
+  l: [SYMBOL]
+- p: [9, 40]
+  k: '&macro_MA'
+  l: [SYMBOL]
+- p: [10, 40]
+  k: '&macro_XE'
+  l: [SYMBOL]
+- p: [13, 40]
+  k: '&macro_VU'
+  l: [SYMBOL]
+- p: [14, 40]
+  k: '&macro_JI'
+  l: [SYMBOL]
+- p: [15, 40]
+  k: '&macro_DE'
+  l: [SYMBOL]
+- p: [16, 40]
+  k: '&macro_GE'
+  l: [SYMBOL]
+- p: [17, 40]
+  k: '&macro_ZE'
+  l: [SYMBOL]
+- p: [18, 40]
+  k: '&macro_MI'
+  l: [SYMBOL]
+- p: [19, 40]
+  k: '&macro_O'
+  l: [SYMBOL]
+- p: [20, 40]
+  k: '&macro_NO'
+  l: [SYMBOL]
+- p: [21, 40]
+  k: '&macro_XYO'
+  l: [SYMBOL]
+- p: [22, 40]
+  k: '&macro_XTU'
+  l: [SYMBOL]
+- p: [26, 40]
+  k: '&macro_BI'
+  l: [SYMBOL]
+- p: [27, 40]
+  k: '&macro_ZU'
+  l: [SYMBOL]
+- p: [28, 40]
+  k: '&macro_BU'
+  l: [SYMBOL]
+- p: [29, 40]
+  k: '&macro_BE'
+  l: [SYMBOL]
+- p: [30, 40]
+  k: '&macro_NU'
+  l: [SYMBOL]
+- p: [31, 40]
+  k: '&macro_YU'
+  l: [SYMBOL]
+- p: [32, 40]
+  k: '&macro_MU'
+  l: [SYMBOL]
+- p: [33, 40]
+  k: '&macro_WA'
+  l: [SYMBOL]
+- p: [34, 40]
+  k: '&macro_XO'
+  l: [SYMBOL]
