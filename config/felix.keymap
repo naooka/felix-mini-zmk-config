@@ -9,10 +9,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define DEFAULT  0
-#define SYMBOL  1
-#define NUMBER  2
-#define SYS     3
+#define DEFAULT 0
+#define NICOLA  1
+#define SYMBOL  2
+#define NUMBER  3
+#define SYS     4
 
 / {
     behaviors {
@@ -51,13 +52,24 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp Q     &kp W     &kp E            &kp R      &kp T                                &kp Y      &kp U      &kp I      &kp O       &kp P          &kp BACKSPACE
-&kp TAB    &kp A     &kp S     &kp D            &kp F      &kp G                                &kp H      &kp J      &kp K      &kp L       &kp SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z     &kp X     &kp C            &kp V      &kp B                                &kp N      &kp M      &kp COMMA  &kp PERIOD  &kp FSLH       &kp RSHFT
-&kp LCTRL  &kp LALT  &kp LGUI  &lt 3 LA(LC(S))  &kp LANG2  &kp SPACE  &lt 2 ENTER  &lt 1 ENTER  &kp SPACE  &kp LANG1  &kp LEFT   &kp DOWN    &kp UP         &kp RIGHT
+&kp ESC    &kp Q     &kp W     &kp E              &kp R         &kp T                                          &kp Y      &kp U         &kp I      &kp O       &kp P          &kp BACKSPACE
+&kp TAB    &kp A     &kp S     &kp D              &kp F         &kp G                                          &kp H      &kp J         &kp K      &kp L       &kp SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z     &kp X     &kp C              &kp V         &kp B                                          &kp N      &kp M         &kp COMMA  &kp PERIOD  &kp FSLH       &kp RSHFT
+&kp LCTRL  &kp LALT  &kp LGUI  &lt SYS LA(LC(S))  &macro_IMEOFF &kp SPACE  &lt NUMBER ENTER  &lt SYMBOL ENTER  &kp SPACE  &macro_IMEON  &kp LEFT   &kp DOWN    &kp UP         &kp RIGHT
             >;
 
             label = "DEFAULT";
+        };
+
+        nicola_layer {
+            bindings = <
+&macro_ESC &mm_JPPERIOD  &mm_KA  &mm_TA  &mm_KO  &mm_SA                       &mm_RA   &mm_TI  &mm_KU     &mm_TU    &macro_JPCOMMA2     &trans
+&trans     &mm_U         &mm_SI  &mm_TE  &mm_KE  &mm_SE                       &mm_HA   &mm_TO  &mm_KI     &mm_I      &macro_NN  &macro_JPBACKSPACE
+&trans     &mm_JPTEN     &mm_HI  &mm_SU  &mm_HU  &mm_HE                       &mm_ME   &mm_SO  &macro_NE  &macro_HO  &macro_JPNNAKATEN      &trans
+&trans     &trans &trans &trans  &trans  &trans  &trans  &trans &trans &trans &trans   &trans  &trans     &trans
+            >;
+
+            label = "NICOLA";
         };
 
         symbol_layer {
