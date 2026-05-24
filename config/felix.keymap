@@ -44,7 +44,7 @@
 
     combos {
         compatible = "zmk,combos";
-        #include "combos.keymap";
+        #include "combos.keymap"
     };
 
     keymap {
