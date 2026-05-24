@@ -86,7 +86,7 @@ layers:
   - {t: '&macro_SO', s: M}
   - '&macro_NE'
   - '&macro_HO'
-  - '&macro_JPNNAKATEN'
+  - '&macro_JPNAKATEN'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
