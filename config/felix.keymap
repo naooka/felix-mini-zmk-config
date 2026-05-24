@@ -16,6 +16,8 @@
 
 / {
     behaviors {
+        #include "macros.dtsi"
+        #include "behaviors.keymap"
         lt_eisuu: lt_eisuu {
             compatible = "zmk,behavior-hold-tap";
             label = "LT_EISUU";
@@ -37,6 +39,11 @@
             quick-tap-ms = <125>;
             flavor = "balanced";
         };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+        #include "combos.keymap";
     };
 
     keymap {
