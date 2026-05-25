@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - TAB
+  - LCTRL
   - A
   - S
   - D
@@ -37,9 +37,9 @@ layers:
   - .
   - /
   - RSHFT
-  - LCTRL
-  - LALT
+  - SYS
   - LGUI
+  - LALT
   - {t: Alt+Ctl+S, h: SYS}
   - '&macro_IMEOFF'
   - SPACE
@@ -115,7 +115,7 @@ layers:
   - (
   - Sft+INT3
   - INT3
-  - LCTRL
+  - TAB
   - LALT
   - DEL
   - {t: ▽, type: trans}
@@ -166,7 +166,7 @@ layers:
   - '9'
   - '0'
   - DEL
-  - {t: ▽, type: trans}
+  - TAB
   - {t: ▽, type: trans}
   - HOME
   - PG DN
@@ -241,10 +241,10 @@ layers:
   - F10
   - F11
   - F12
-  - '&bootloader'
+  - {t: '&bootloader', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
