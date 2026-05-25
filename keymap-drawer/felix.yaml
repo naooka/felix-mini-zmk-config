@@ -37,10 +37,10 @@ layers:
   - .
   - /
   - RSHFT
-  - SYS
+  - TAB
   - LGUI
   - LALT
-  - {t: Alt+Ctl+S, h: SYS}
+  - SYS
   - '&macro_IMEOFF'
   - SPACE
   - {t: ENTER, h: NUMBER}
@@ -103,7 +103,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYMBOL:
-  - {t: ▽, type: trans}
+  - TAB
   - '!'
   - '@'
   - '#'
@@ -115,7 +115,7 @@ layers:
   - (
   - Sft+INT3
   - INT3
-  - TAB
+  - {t: ▽, type: trans}
   - LALT
   - DEL
   - {t: ▽, type: trans}
@@ -154,7 +154,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUMBER:
-  - {t: ▽, type: trans}
+  - TAB
   - '1'
   - '2'
   - '3'
@@ -166,7 +166,7 @@ layers:
   - '9'
   - '0'
   - DEL
-  - TAB
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
   - PG DN
@@ -241,10 +241,10 @@ layers:
   - F10
   - F11
   - F12
-  - {t: '&bootloader', type: held}
+  - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
